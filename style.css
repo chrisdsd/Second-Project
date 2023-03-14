@@ -1,0 +1,36 @@
+.grid{
+    display: grid;
+    grid-template-areas: 
+    "a b c"
+    "d e f"
+    "g h i";
+    justify-content: center;
+    align-items: center;
+}
+
+.grid div{
+    height: 120px;
+    width: 120px;
+    font-size: 80px;
+    border: 1px solid rgb(0, 0, 0);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+button{
+    padding: 20px;
+    font-size: 30px;
+    background: white;
+    box-shadow: 0;
+
+}
